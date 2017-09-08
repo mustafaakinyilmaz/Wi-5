@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+This document is prepared to explain how to use these python scripts.
+-------------------------------------------------------------------------------
+
+# Before running
+
+	Before running gui.py, it is necessary to edit paths of required files on your local. There is no need to edit remote paths as they are supposed to be.
+	Also change username and password of the AP if necessary.
+
+# While runnig 
+
+	When running gui.py, it is needed to edit some entries showed on the interface.
+        First, you have to write down your AP's current IP on the required area.
+	As can be seen on the interface, for ControlPlane IP 192.168.6.x as default and for DataPlane IP 192.168.5.x as default are written.
+	It is for convenience but you can feel free to change them. 
+	After finising filling required areas for your configuration, Go button is pressed.
+	Some functions are executed when pressed the Go button. These functions are responsible to carry out creating configuration files on your local, copying them into different paths in your AP.
+ 	Finally, network configuration is restarted in the AP and bash scripts are made executable.
